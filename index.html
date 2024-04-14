@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <!-- Box 1 -->
+    <h1>Student form</h1>
+
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <td><input type="text" id="in1"></td>
+        <tr>
+            <th>Age</th>
+            <td><input type="text" id="in2"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="radio" name="Gender" value="male">male<input type="radio" name="Gender"
+                    value="female">Femlae</td>
+        </tr>
+        <tr>
+            <th>Course</th>
+            <td><input type="text" id="in4"></td>
+        <tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="text" id="in5"></td>
+        <tr style="text-align: center;">
+            <td colspan="2">
+                <button id="btn" onclick="create()" style="width: 100%; background-color: aqua;">Save</button>
+            </td>
+        </tr>
+    </table>
+    <table border="2" id="container">
+        <tr>
+            <td><b>Name</b></td>
+            <td><b>Age</b></td>
+            <td><b>Gender</b></td>
+            <td><b>Course</b></td>
+            <td><b>Email</b></td>
+            <td><b>Action</b></td>
+        </tr>
+    </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
